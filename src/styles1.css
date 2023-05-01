@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Avenir', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.spline {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.text {
+  position: absolute;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  left: 50%;
+  top: 3.5%;
+  transform: translate(-50%);
+  z-index: 1;
+}
+
+canvas {
+  display: block;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.links {
+  z-index: 1;
+}
+
+.link1 {
+  position: absolute;
+  text-align: center;
+  left: 2%;
+  bottom: 3%;
+  z-index: 1;
+}
+
+.link2 {
+  position: absolute;
+  text-align: center;
+  right: 2%;
+  bottom: 3%;
+  z-index: 1;
+}
+
+a {
+  font-size: 16px;
+  padding: 8px 16px;
+  background-color: #000000;
+  border:solid #000000;
+  border-radius: 8px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 600;
+}
+
+
+    
+  
+
+
+
